@@ -16,8 +16,7 @@ Certification of RCRS instruction is required for all PhD students and postdocs,
 
 After completion of the RCRS component, the remaining classes will discuss various issues related to statistical computation: Unix and Linux, parallel computation, the greatlakes cluster, R and Python, Latex, reproducible statistical research (knitR, Rmarkdown, Jupyter), communicating statistical methodology.
 
-## Course Outline
-
+### Course Outline
 
 ```{R outline, echo=FALSE}
 library(knitr)
