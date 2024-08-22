@@ -1,0 +1,62 @@
+---
+title: "Syllabus for STATS 810 (Fall 2024)"
+---
+
+<br>
+__Class meetings__: Monday 2:30-4:00, 1060 East Hall.
+<br>
+__Instructor__: Edward Ionides
+<br>
+__Course web site__: [ionides.github.io/810f24](ionides.github.io/810f24)
+
+The first 8 weeks of Stat 810 focus on responsible conduct of research and scholarship (RCRS). Instruction in RCRS is required by both the National Science Foundation (NSF) and the National Institutes of Health (NIH). To satisfy this federal legislation, the University of Michigan requires certification of [8 hrs of classroom discussion on RCRS for all PhD students](https://research.umich.edu/research-at-michigan/ovpr-units/rcrs/). 
+There will be a short weekly writing assignment so that we are all prepared in advance for each discussion.
+
+Certification of RCRS instruction is required for all PhD students and postdocs, since most PhD students and postdocs will at some point be working on federally funded projects. In order to achieve certification, attendance and participation of students is required. The first class of 810 will discuss why RCRS instruction has been mandated, and this would be an appropriate time to raise any concerns you might have about whether RCRS instruction is a worthwhile use of your time.
+
+After completion of the RCRS component, the remaining classes will discuss various issues related to statistical computation: Unix and Linux, parallel computation, the greatlakes cluster, R and Python, Latex, reproducible statistical research (knitR, Rmarkdown, Jupyter), communicating statistical methodology.
+
+## Course Outline
+
+
+```{R outline, echo=FALSE}
+library(knitr)
+class1 <- as.Date("2024-8-26")
+entries <- c(
+"What is RCRS? Why are we discussing it? _[pp. 1--3]_",
+"LABOR DAY",
+"Building and maintaining healthy mentor/mentee relationships. _[pp. 4--7]_",
+"Publication and peer review. _[pp. 29--38]_",
+"Academic misconduct. _[pp. 15--23]_",
+"Data and the reproducibility of research results. _[pp.\ 8-11]_",
+"Conflicts of interest and conflicts of commitment. _[pp. 43--47]_",
+"FALL STUDY BREAK",
+"Collaborative research; human participants \\& animal subjects. _[pp.\ 24-28, 39-42, 48-49]_",
+"Negligence, mistakes \\& how to avoid them. _[pp. 12--14]_",
+"Engendering respectful communities",
+"Internet repositories for collaboration and open-source research: git and GitHub.",
+"Linux and the open source software movement.",
+"Parallel statistical computing.",
+"Statistical computing on greatlakes.",
+"A workflow for reproducible statistical research: combining Latex and R with knitr."
+#"Uses of generative AI in statistics research and education"
+)
+
+date.offsets <- (0:(length(entries)-1) )*7
+dates <- format.Date(class1+date.offsets,format="%b %d")
+tab <- cbind(dates,entries)
+knitr::kable(tab,format="pipe",col.names=NULL)
+```
+
+
+
+**Reading assignments** _[in brackets, above]_ correspond to pages of ``On Being a Scientist: A Guide to Responsible Conduct in Research: Third Edition,'' a publication of the National Academies of Science and Engineering and the National Institute of Medicine. There is a [free online pdf](http://www.nap.edu/catalog.php?record_id=12192).
+
+
+**Grading**. Participation is expected in class. Each class and homework will receive a score out of 2, based upon participation in class and completion of homework. The lowest class and homework score will be dropped, but there will not be make-up opportunities. Scores will be posted on Canvas. Grades cutoffs are: A, 92%; A-, 88%; B+, 84%; B, 80%. 
+
+**GenAI**. If you experiment with a generative AI program such as ChatGPT, you will find that suitable prompts can often generate plausible answers to RCRS questions. The goal of this course is to build your own knowledge and judgement, and to practice sharing your own RCRS thoughts and experiences with others.  To meet the course expectations, you should be able to present your own opinions in your own words. Output from any GenAI algorithm should be quoted and, a minimum, you should explain the extent to which you, personally, agree with the GenAI.
+
+**GenAI for translation**. The algorithms used by modern computer translation algorithms are very similar to ChatGPT, and the text produced can look correspondingly similar. If English is your second language, using computer translation can help with language skills. However, you should aim to develop your own voice in English. If you use computer translation, treat it like other uses of GenAI: place the output in quotes, and add some commentary in your own words.
+
+
