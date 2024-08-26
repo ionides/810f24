@@ -8,9 +8,9 @@ title: "STATS 810 (Fall 2024)"
 
 ### [Syllabus](syllabus.html) 
 
-### Homework assignments 
+### Homework assignment and class notes
 
-To be assigned
+* [Class 1. Introduction to RCRS](first-class.html)
 
 <!--
 
