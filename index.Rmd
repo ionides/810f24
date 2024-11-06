@@ -27,10 +27,9 @@ title: "STATS 810 (Fall 2024)"
 
 * [Homework 7. Negligence, mistakes & how to avoid them](hw07.pdf).
 
-<!--
-
 * [Homework 8. Internet repositories for collaboration and open-source research: git and GitHub](hw08.html).
 
+<!--
 * [Homework 9. Linux and the open source software movement](hw09.pdf).
 
 * [Homework 10. Parallel statistical computing](hw10.pdf).
