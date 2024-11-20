@@ -29,12 +29,11 @@ title: "STATS 810 (Fall 2024)"
 
 * [Homework 8. Internet repositories for collaboration and open-source research: git and GitHub](hw08.html).
 
-* [Homework 9. Linux and the open source software movement](hw09.pdf).
-    + Sample [.bash_profile](sample.bash_profile) taken from my Mac laptop
+* [Homework 9. Linux and the open source software movement](hw09.pdf). Sample [.bash_profile](sample.bash_profile) taken from my Mac laptop
 
-<!--
 * [Homework 10. Parallel statistical computing](hw10.pdf).
 
+<!--
 * [Homework 11. A workflow for reproducible statistical research: combining Latex and R with knitr](hw11.pdf).
 
     + [Debugging hints for homework 11](hw11supp.html).
