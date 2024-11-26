@@ -33,14 +33,15 @@ title: "STATS 810 (Fall 2024)"
 
 * [Homework 10. Parallel statistical computing](hw10.pdf).
 
-<!--
-* [Homework 11. A workflow for reproducible statistical research: combining Latex and R with knitr](hw11.pdf).
-
-    + [Debugging hints for homework 11](hw11supp.html).
-
-* [Homework 12. Statistical computing on greatlakes](hw12.pdf).
+* [Homework 11. Statistical computing on greatlakes](hw11.pdf).
 
     + [Introductory notes on command-line usage of greatlakes](gl/slides.pdf).
+
+<!--
+* [Homework 12. A workflow for reproducible statistical research: combining Latex and R with knitr](hw12.pdf).
+
+    + [Debugging hints for homework 12](hw12supp.html).
+
 
 
 -->
